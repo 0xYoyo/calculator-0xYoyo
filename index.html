@@ -6,9 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="calculator.js"></script>
+    <script src="calculator.js" defer></script>
 </head>
 <body>
+    <h1>The calculator</h1>
+    <div id="container">
+        <div id="display">12451</div>
+
+        <div class="buttons">
+            <div class="left">
+                <div class="opps">
+                    <button id="clear" class="operator">AC</button>
+                    <button id="root" class="operator">√</button>
+                    <button id="power" class="operator">^</button>
+                </div>
+
+                <div class="digits">
+                    <button id="one" class="num">1</button>
+                    <button id="two" class="num">2</button>
+                    <button id="three" class="num">3</button>
+                    <button id="four" class="num">4</button>
+                    <button id="five" class="num">5</button>
+                    <button id="six" class="num">6</button>
+                    <button id="seven" class="num">7</button>
+                    <button id="eight" class="num">8</button>
+                    <button id="nine" class="num">9</button>
+                    <button id="zero" class="num">0</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <button id="divide" class="operator">/</button>
+                <button id="multiply" class="operator">*</button>
+                <button id="subtract" class="operator">-</button>
+                <button id="add" class="operator">+</button>
+                <button id="operate" class="operator">=</button>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
