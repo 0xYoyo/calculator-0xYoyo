@@ -69,6 +69,15 @@ button{
     border-radius: 8px;
     border-color: #333333;
     font-size: 36px;
+    cursor: pointer;
+}
+
+button:hover{
+    font-size: 46px;
+}
+
+button:active{
+    color: white;
 }
 
 .operator{
